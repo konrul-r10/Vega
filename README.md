@@ -1,112 +1,87 @@
-# Vega
-📶 WiFi Bağlantısı ve Akıllı Yönetim <br>
-✔️ Cihaz açıldığında otomatik olarak tanımlı WiFi ağına bağlanır. <br>
-✔️ Bağlantı koparsa sistem her 10 saniyede bir durumu kontrol eder ve otomatik olarak tekrar bağlanmaya çalışır. <br>
-✔️ WiFi'ye bağlanılamazsa, cihaz otomatik olarak bir WiFi ağı oluşturur ("Ares ve Mia") ve kullanıcıdan yeni WiFi bilgisi ister. <br>
-✔️ Web arayüzü üzerinden cihazın bağlı olduğu WiFi ağının adı (SSID), sinyal gücü (dBm) ve IP adresi gibi bilgileri görüntüleyebilirsiniz. <br>
-✔️ WiFi bilgilerini silebilir ve cihazı fabrika ayarlarına döndürebilirsiniz. <br>
- <br>
-🔄 Bu sayede cihaz internetsiz kalmaz, bağlantı her zaman aktif kalır. <br> 
- <br>
-🌐 Mobil Uyumlu Web Arayüzü <br>
-✔️ Cihazın kontrolü, herhangi bir uygulama gerektirmeden web tarayıcısı üzerinden yapılabilir. <br>
-✔️ Telefon, tablet ya da bilgisayardan erişim için mobil uyumlu tasarıma sahiptir. <br>
-✔️ Ana Sayfa: <br>
- <br>
-Anlık mama seviyesi gösterilir. <br>
+#Vega Akıllı Mama Makinası
 
-"Besle" butonlarıyla manuel besleme yapılabilir. <br>
+📶 WiFi Bağlantısı ve Akıllı Yönetim<br>
+✅ Cihaz açıldığında otomatik olarak WiFi’ye bağlanır.<br>
+🔄 Bağlantı koparsa her 10 saniyede bir yeniden bağlanmayı dener.<br>
+📡 Bağlantı kurulamazsa kendi ağı (“Ares ve Mia”) ile sizi WiFi girmeye yönlendirir.<br>
+🌐 Web arayüzünde bağlı WiFi adı, sinyal gücü ve IP adresi gösterilir.<br>
+🧹 İstenirse WiFi bilgileri silinip cihaz sıfırlanabilir.<br>
+🔁 Bu sayede cihaz her zaman bağlı kalır.<br>
 
-Haftalık planlar, geçmiş loglar ve ayarlar sayfalarına hızlı erişim sunar. <br>
+🌐 Mobil Uyumlu Web Arayüzü<br>
+📱 Telefon, tablet ve bilgisayardan kontrol edilebilir.<br>
+🏠 Ana sayfada anlık mama seviyesi ve “Besle” butonları bulunur.<br>
+📅 Haftalık plan, 📊 geçmiş kayıt ve ⚙️ ayarlara hızlı erişim sağlanır.<br>
+✏️ Cihaz ismi ve e-posta kolayca değiştirilebilir.<br>
+🔄 Yazılım güncellenebilir, sistem bilgileri görüntülenebilir.<br>
+👶 Kullanımı kolay, sade arayüz sunar.<br>
 
-✔️ Ayarlar Sayfası: <br>
+🗣️ Apple Siri ile Uyumlu Kontrol<br>
+🎙️ Siri ile sesli komut vererek cihazı çalıştırabilirsiniz.<br>
+🍽️ “Hey Siri, Ares’e mama ver” gibi komutlarla manuel besleme yapılabilir.<br>
+📲 iPhone, iPad veya Mac üzerinden kısayol oluşturularak uzaktan kontrol sağlanabilir.<br>
+🔐 Siri kısayolları güvenli şekilde çalışır, sadece sizin belirlediğiniz cihazlarda etkindir.<br>
+🤖 Otomasyon oluşturularak günün belirli saatlerinde Siri ile otomatik besleme tetiklenebilir.<br>
+🧏‍♀️ Ellerinizi kullanmadan sesinizle mama kontrolü yapın!<br>
 
-Cihaz ismini ve e-posta adresini değiştirme <br>
+🐾 Mama Seviyesi Ölçümü (HC-SR04 Sensör)<br>
+📏 Mama miktarı %0 ile %100 arasında görsel olarak gösterilir.<br>
+🧼 Ölçüm temassız yapılır, hijyeniktir.<br>
+⏱️ Her 30 saniyede bir otomatik ölçüm yapılır.<br>
+⚠️ Mama %10’un altına düşerse uyarı e-postası gönderilir.<br>
+✅ Mama eklenirse sistem uyarıyı sıfırlar.<br>
+📉 Mama bitmeden haberdar olursunuz.<br>
 
-WiFi bilgilerini görüntüleme ve sıfırlama <br>
+📩 E-posta Bildirim Sistemi<br>
+👋 İlk bağlanmada “Hoş Geldiniz” e-postası gönderilir.<br>
+🖲️ Manuel beslemede hangi tuşa basıldığı e-posta ile bildirilir.<br>
+⚠️ Mama azaldığında otomatik uyarı gönderilir.<br>
+✏️ E-posta adresi web sayfasından kolayca güncellenebilir.<br>
+📬 Evin dışında olsanız bile bilgilendirme alırsınız.<br>
 
-OTA (kablosuz güncelleme) yapma imkanı sunar. <br>
+⚙️ Servo Motor ile Hassas Dağıtım<br>
+🚪 Kapak yavaşça açılıp kapanır, mama akar.<br>
+🍽️ Tek, çift veya üç porsiyon seçilebilir.<br>
+🧯 Mama sıkışmasını önlemek için yavaş hareket eder.<br>
+🔁 Çoklu modlarda motor tekrar çalışarak daha fazla mama verir.<br>
+🐶 Evcil dostunuz için ideal porsiyon seçebilirsiniz.<br>
 
-✔️ Sistem Sayfası: <br>
+🧠 Planlı Otomatik Besleme<br>
+📆 Haftanın her günü için 3 ayrı saat belirlenebilir.<br>
+🕒 Saat, dakika, porsiyon ve aktiflik ayarlanabilir.<br>
+⏱️ Cihaz zamanı izler, geldiğinde otomatik besleme yapar.<br>
+📝 Planlar kolayca görülebilir, değiştirilebilir veya silinebilir.<br>
+📋 Tüm planlar haftalık tabloda listelenir.<br>
+📅 Evde olmasanız bile düzenli besleme devam eder.<br>
 
-RAM ve flash kullanımı gibi teknik veriler gösterilir. <br>
+🗂️ Loglama Sistemi (Besleme Geçmişi)<br>
+🕘 Tüm beslemeler tarih ve saat ile kaydedilir.<br>
+🥣 Her kayıt ne kadar mama verildiğini gösterir.<br>
+💾 Son 50 kayıt hafızada tutulur.<br>
+📑 Tabloda listelenir, grafikle gösterilir.<br>
+🧹 Tek tuşla tüm kayıtlar silinebilir.<br>
+📈 Besleme geçmişini kolayca takip edebilirsiniz.<br>
 
-Güncelleme yükleme ve resetleme işlemleri yapılabilir. <br>
+📊 Grafikli Mama Takibi<br>
+📉 Beslemeler zaman çizelgesinde grafikle gösterilir.<br>
+📱 Tüm cihazlarda uyumlu şekilde görüntülenir.<br>
+🍽️ Hangi saatte kaç porsiyon verildiği izlenebilir.<br>
+👁️ Yoğunluklar kolayca analiz edilebilir.<br>
+🧠 Besleme alışkanlıklarını görsel olarak analiz edin.<br>
 
-🖥️ Arayüz, sade ve kullanıcı dostudur. Teknolojik bilgi gerektirmez. <br>
- <br>
-🐾 Mama Seviyesi Ölçümü (HC-SR04 Ultrasonik Sensör) <br>
-✔️ Haznedeki mama yüksekliği ölçülerek %0 (boş) - %100 (dolu) aralığında görsel olarak gösterilir. <br>
-✔️ Seviyeyi ölçmek için ultrasonik dalgalar kullanır (temassız ve hijyenik). <br>
-✔️ Her 30 saniyede bir kontrol yapılır. <br>
-✔️ Mama seviyesi %10’un altına düşerse, kullanıcıya otomatik e-posta uyarısı gönderilir. <br>
-✔️ Seviyenin tekrar %10 üzerine çıkması durumunda sistem sıfırlanır ve yeniden uyarı göndermeye hazır hale gelir. <br>
- <br>
-📉 Böylece mama bitmeden haberdar olursunuz. <br>
- <br>
-📩 E-posta Bildirim Sistemi <br>
-✔️ Cihaz ilk kez ağa bağlandığında, girilen e-posta adresine "Hoş Geldiniz" mesajı gönderilir. <br>
-✔️ Manuel olarak mama verildiğinde, hangi butona (tek, çift, üçlü) basıldığına dair e-posta gönderilir. <br>
-✔️ Mama seviyesi kritik seviyeye düşerse, sistem otomatik uyarı e-postası gönderir. <br>
-✔️ E-posta adresi kolayca web arayüzü üzerinden değiştirilebilir. <br>
- <br>
-📬 Evin dışında bile olsanız, cihaz sizi bilgilendirir! <br>
- <br>
-⚙️ Servo Motor ile Hassas Mama Dağıtımı <br>
-✔️ Servo motor kontrollü sistem ile kapak yavaşça açılıp kapanır. <br>
-✔️ 3 farklı besleme seçeneği: <br>
-・🔹 Tek Besleme (1 porsiyon) <br>
-・🔹 Çift Besleme (2 porsiyon) <br>
-・🔹 Üçlü Besleme (3 porsiyon) <br>
-✔️ Mama sıkışmalarına karşı yavaş açılma ve kapanma hareketi uygulanır. <br>
-✔️ “x2” ve “x3” modlarında motor döngüleri tekrarlanarak mama akışı artırılır. <br>
- <br>
-🐾 Evcil hayvanınızın mama ihtiyacına göre seçim yapabilirsiniz. <br>
- <br>
-🧠 Planlı Otomatik Besleme <br>
-✔️ Haftanın 7 günü için her gün 3 farklı zaman planlanabilir. <br>
-✔️ Her plan için saat, dakika, porsiyon ve aktiflik ayarlanabilir. <br>
-✔️ Cihaz her dakikayı kontrol eder ve planlı saate ulaştığında otomatik besleme yapar. <br>
-✔️ Planlar web arayüzünden kolayca görülebilir, değiştirilebilir ve silinebilir. <br>
-✔️ Aktif planlar haftalık tabloda listelenir, isteğe göre gün bazlı filtreleme yapılabilir. <br>
- <br>
-📅 Tatilde ya da evde olmadığınızda bile düzenli besleme sağlanır. <br>
- <br>
-🗂️ Loglama Sistemi (Besleme Geçmişi) <br>
-✔️ Cihaz tüm manuel ve planlı besleme olaylarını tarih ve saat bilgisiyle kayıt altına alır. <br>
-✔️ Her kayıt: Tarih, besleme türü ve porsiyon bilgilerini içerir. <br>
-✔️ Son 50 kayıt hafızada tutulur (daha fazla yer kaplamaması için). <br>
-✔️ Geçmiş kayıtlar tablo halinde listelenir ve grafikle görselleştirilir. <br>
-✔️ İsteğe bağlı olarak loglar tek tuşla silinebilir. <br>
- <br>
-📈 Bu sayede hangi gün ve saatte ne kadar mama verildiğini takip edebilirsiniz. <br>
- <br>
-📊 Grafikli Mama Takibi <br>
-✔️ Geçmiş beslemeler bir çizgi grafik üzerinde gösterilir. <br>
-✔️ Grafik her cihazda uyumlu şekilde (responsive) gösterilir. <br>
-✔️ Porsiyon miktarları zaman çizgisine göre izlenebilir. <br>
-✔️ Görsel olarak hangi zamanlarda yoğun besleme yapıldığı anlaşılır. <br>
- <br>
-📉 Görsel analiz sayesinde besleme alışkanlıklarını takip edebilirsiniz. <br>
- <br>
-🔄 OTA (Kablosuz Yazılım Güncelleme) <br>
-✔️ Web arayüzü üzerinden .bin dosyası yükleyerek cihazın yazılımı güncellenebilir. <br>
-✔️ Güncelleme sonrası cihaz otomatik olarak yeniden başlar. <br>
-✔️ Yeni özellikler, hata düzeltmeleri ve iyileştirmeler kolayca yüklenebilir. <br>
- <br>
-🛠️ Bilgisayar bağlantısı olmadan cihaz güncel kalır! <br>
- <br>
-🔗 JSON API ile Dış Sistem Entegrasyonu <br>
-✔️ /mamaSeviyesi adresinden cihazın anlık mama seviyesi JSON formatında alınabilir. <br>
-✔️ Başka bir sistem veya uygulama bu veriyi kullanarak kendi ekranında gösterim yapabilir. <br>
- <br>
-📡 Bu sayede ev otomasyonu gibi sistemlere kolayca entegre olur. <br>
- <br>
-💡 Ek Özellikler <br>
-✔️ Kullanıcı tarafından cihaz ismi değiştirilebilir ve web arayüzde bu isim görünür. <br>
-✔️ Hazne seviyesi API’si dış sistemlerle bağlantı kurmak için uygundur. <br>
-✔️ WiFi sinyal gücü grafiksel emojiyle gösterilir (🚀, ✅, ⚠️, 🔴, ❌). <br>
-✔️ Cihaz adı ve e-posta adresi kalıcı olarak EEPROM’da saklanır, elektrik kesilse bile kaybolmaz. <br>
- <br>
-🔋 Enerji kesilse bile verileriniz güvende! <br>
+🔄 OTA (Kablosuz Yazılım Güncelleme)<br>
+📤 Web arayüzü üzerinden .bin dosyası yüklenerek güncelleme yapılır.<br>
+🔁 Güncelleme sonrası cihaz yeniden başlatılır.<br>
+✨ Yeni özellik ve düzeltmeler kolayca eklenir.<br>
+🛠️ Bilgisayar bağlantısı gerekmeden cihaz güncel kalır.<br>
 
+🔗 JSON API ile Dış Sistem Entegrasyonu<br>
+🌐 /mamaSeviyesi adresi ile anlık mama seviyesi alınabilir.<br>
+🤝 Bu bilgi dış sistemlerle paylaşılabilir.<br>
+📡 Ev otomasyon sistemlerine kolayca entegre olur.<br>
+
+💡 Ek Özellikler<br>
+🏷️ Cihaz ismi değiştirilebilir, web arayüzde görünür.<br>
+📶 WiFi gücü emojilerle ifade edilir (🚀, ✅, ⚠️, 🔴, ❌).<br>
+🔒 Tüm bilgiler kalıcı olarak saklanır, elektrik kesilse bile kaybolmaz.<br>
+🔋 Enerji kesilse bile bilgileriniz güvende.<br>
