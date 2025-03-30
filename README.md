@@ -1,9 +1,9 @@
 # Vega
-📶 WiFi Bağlantısı ve Akıllı Yönetim
-✔️ Cihaz açıldığında otomatik olarak tanımlı WiFi ağına bağlanır.
-✔️ Bağlantı koparsa sistem her 10 saniyede bir durumu kontrol eder ve otomatik olarak tekrar bağlanmaya çalışır.
-✔️ WiFi'ye bağlanılamazsa, cihaz otomatik olarak bir WiFi ağı oluşturur ("Ares ve Mia") ve kullanıcıdan yeni WiFi bilgisi ister.
-✔️ Web arayüzü üzerinden cihazın bağlı olduğu WiFi ağının adı (SSID), sinyal gücü (dBm) ve IP adresi gibi bilgileri görüntüleyebilirsiniz.
+📶 WiFi Bağlantısı ve Akıllı Yönetim <br>
+✔️ Cihaz açıldığında otomatik olarak tanımlı WiFi ağına bağlanır. <br>
+✔️ Bağlantı koparsa sistem her 10 saniyede bir durumu kontrol eder ve otomatik olarak tekrar bağlanmaya çalışır. <br>
+✔️ WiFi'ye bağlanılamazsa, cihaz otomatik olarak bir WiFi ağı oluşturur ("Ares ve Mia") ve kullanıcıdan yeni WiFi bilgisi ister. <br>
+✔️ Web arayüzü üzerinden cihazın bağlı olduğu WiFi ağının adı (SSID), sinyal gücü (dBm) ve IP adresi gibi bilgileri görüntüleyebilirsiniz. <br>
 ✔️ WiFi bilgilerini silebilir ve cihazı fabrika ayarlarına döndürebilirsiniz.
 
 🔄 Bu sayede cihaz internetsiz kalmaz, bağlantı her zaman aktif kalır.
